@@ -1,0 +1,14 @@
+{
+    "categoriesPattern": {
+        "Investment": "(?:zerodha|groww|sebi|nsdl|cdsl)",
+        "Family": "(?:insurance)",
+        "Bills": "(?:bill|bills)",
+        "Dining": "(?:zomato|swiggy)",
+        "Household": "(?:pickly|zepto|blinkit|techshore)",
+        "Health": "(?:cloudnine|motherwood|appollo\\scradle|sakara|fortis)"
+    },
+    "rejectionPattern": "(?:send\\smoney\\sto|upimandate|reward\\spoints|dear\\scustomer,|dear\\scustomer|total\\sdue|will\\sreflect|update|otp|disclose|identification\\scode|dear\\sinvestor|will\\sbe\\scredited|will\\sbe\\sdebited|bonus\\spoints|processed|order\\srefund|your\\sbank|tariff|rewards|cashback|health\\scredits|service|cashless|redeem|cashless\\sclaim|enhancement|generated|reciept|instant\\soff|get\\supto|dazzling|dont\\smiss)",
+    "creditPattern": "(?:credited|credit|deposited|added|received|refund|repayment)",
+    "debitPattern": "(?:debited|debit|deducted|spent|contribution|money\\ssent)",
+    "miscPattern": "(?:payment|spent|paid|used\\s+at|transfer|charged|transaction\\son|transaction\\sfee|tran|booked|purchased|sent|sent\\s+to|purchase\\s+of)"
+}
